@@ -12,6 +12,8 @@ official_apps=(
     "alacritty"
     "less"
     "firefox"
+    "noto-fonts-cjk"
+    "ttf-fira-code"
 )
 
 # Update system
