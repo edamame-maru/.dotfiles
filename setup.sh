@@ -6,7 +6,11 @@ official_apps=(
     "stow"
     "feh"
     "vim"
+    "zathura"
+    "zathura-pdf-poppler"
     "base-devel"
+    "alacritty"
+    "less"
     "firefox"
 )
 
