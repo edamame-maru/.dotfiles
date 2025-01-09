@@ -14,6 +14,8 @@ official_apps=(
     "firefox"
     "noto-fonts-cjk"
     "ttf-fira-code"
+    "brightnessctl"
+    "pavucontrol"
 )
 
 # Update system
