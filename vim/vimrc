@@ -1,0 +1,13 @@
+set rnu 
+set nowrap 
+set et
+set ai
+set si
+set hls
+colo slate
+set sts=4
+set shiftwidth=4
+set noexpandtab
+retab
+syntax enable
+let loaded_matchparen = 0
