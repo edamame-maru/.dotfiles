@@ -19,33 +19,13 @@ arch_apps=(
     "openresolv"
 )
 
-debian_apps=(
-    "git"
-    "stow"
-    "feh"
-    "vim"
-    "zathura"
-    "build-essential"
-    "alacritty"
-    "less"
-    "firefox"
-    "fonts-noto-cjk"
-    "fonts-firacode"
-    "brightnessctl"
-    "pavucontrol"
-    "wireguard"
-    "openresolv"
-)
-
 # Update system
 echo "working updates..."
 sudo pacman -Syu --noconfirm
-sudo apt update && sudo apt upgrade -y
 
 # Install official packages
 echo "working packages..."
 sudo pacman -S --noconfirm "${arch_apps[@]}"
-sudo apt install -y "${debian_apps[@]}"
 
 # Make folders
 echo "making home folders..."
