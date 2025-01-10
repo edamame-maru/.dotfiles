@@ -190,4 +190,4 @@ bar {
 }
 
 # Wallpaper
-exec_always feh --bg-center ~/.dotfiles/wallpaper/yorukura.jpg
+exec_always feh --bg-center ~/med/yorukura.jpg
