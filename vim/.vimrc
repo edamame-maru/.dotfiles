@@ -30,8 +30,13 @@ call plug#begin()
 " List your plugins here
 Plug 'jiangmiao/auto-pairs'
 Plug 'lifepillar/vim-solarized8'
+Plug 'dense-analysis/ale'
 
 call plug#end()
+
+
+let g:ale_completion_enabled = 1
+let g:ale_linters = {'rust': ['analyzer']}
 
 colo solarized8
 
