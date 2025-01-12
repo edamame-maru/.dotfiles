@@ -36,7 +36,12 @@ call plug#end()
 
 
 let g:ale_completion_enabled = 1
-let g:ale_linters = {'rust': ['analyzer']}
+let g:ale_linters = {
+\   'rust': ['analyzer'],
+\   'c': ['clangd'],
+\   'cpp': ['clangd'],
+\   'python': ['pylsp'],
+\}
 
 colo solarized8
 
