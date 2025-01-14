@@ -10,7 +10,6 @@ set noet
 set enc=utf8
 set termguicolors
 set background=dark
-set guioptions-=mT
 syntax enable
 let loaded_matchparen = 0
 
