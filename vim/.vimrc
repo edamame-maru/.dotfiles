@@ -38,8 +38,6 @@ call plug#end()
 let g:ale_completion_enabled = 1
 let g:ale_linters = {
 \   'rust': ['analyzer'],
-\   'c': ['clangd'],
-\   'cpp': ['clangd'],
 \   'python': ['pylsp'],
 \}
 
