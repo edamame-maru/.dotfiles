@@ -191,3 +191,4 @@ bar {
 
 # Wallpaper
 exec_always feh --bg-center ~/.wallpaper/yorukura.jpg
+exec_always setxkbmap us
