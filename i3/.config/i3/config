@@ -190,5 +190,5 @@ bar {
 }
 
 # Wallpaper
-exec_always feh --bg-center ~/.wallpaper/yorukura.jpg
+exec_always feh --bg-fill ~/.wallpaper/visualbg_fumikiri.jpg
 exec_always setxkbmap us
