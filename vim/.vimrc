@@ -1,4 +1,4 @@
 set nu
-set autoindent
+set cindent
 syntax enable
 let g:loaded_matchparen=1
