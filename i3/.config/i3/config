@@ -186,7 +186,7 @@ bindsym $mod+r mode "resize"
 bar {
 	status_command i3status
 		position top
-#		tray_output none
+		tray_output none
 }
 
 # Wallpaper
