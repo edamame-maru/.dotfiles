@@ -13,11 +13,6 @@ syntax enable
 " leave brackets unhighlighted
 let g:loaded_matchparen=1
 
-" :h tabstop (option 2)
-set tabstop=4
-set shiftwidth=4
-set expandtab
-
 " download vim-plug if not found 
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
