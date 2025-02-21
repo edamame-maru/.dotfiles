@@ -1,5 +1,5 @@
 " precede lines with numbers
-set nu
+set rnu
 
 " lines do not trail onto newlines 
 set nowrap
