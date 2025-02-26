@@ -196,7 +196,7 @@ client.unfocused #6d7472 #f0eceb #000000 #f0eceb #6d7472
 
 # add gaps between windows
 gaps inner 30
-gaps outer 10 
+gaps outer 40 
 
 # no gaps when one window 
 smart_gaps on
