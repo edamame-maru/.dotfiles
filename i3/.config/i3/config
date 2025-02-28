@@ -151,6 +151,9 @@ bar {
 	# put bar at top of desktop
 	position top
 
+	# disable system tray
+	tray_output none
+
 	colors {
 		# color of status bar
 		background #f0eceb
