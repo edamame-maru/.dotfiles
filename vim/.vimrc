@@ -12,3 +12,9 @@ syntax enable
 
 " leave brackets unhighlighted
 let g:loaded_matchparen=1
+
+" set colorscheme to desert
+colo desert
+
+" change font to firacode in gui
+set guifont=Fira\ Code\ 13
